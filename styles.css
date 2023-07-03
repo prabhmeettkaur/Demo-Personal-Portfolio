@@ -1,0 +1,94 @@
+
+html,body{
+    padding: 0;
+    margin : 0;
+}
+.navbar{
+    background-color: rgb(8, 100, 69);
+    padding:12px 14px;
+    color : white;
+
+}
+.navbar a{
+    margin-right: 4px;
+
+}
+.navbar a:hover{
+    background-color:antiquewhite;
+    padding: 12px 14px; 
+    
+}
+/* header{
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: aquamarine;
+} */
+.about{
+    margin-top: 50px;
+ 
+}
+.about img{
+    max-width: 400px;
+
+    margin-left: 30px;
+
+}
+.about .content{
+    display: flex;
+
+}
+.about h1{
+    text-align: center;
+}
+.about p{
+    margin-left: 20px;
+    font-size: 100px;
+}
+.about button{
+    margin-left: 20px;
+    color: rgb(18, 18, 24);
+    background-color: rgb(247, 203, 146);
+}
+/* .service h1{
+    text-align: center ;
+} */
+.card{
+    padding: 50px 50px;
+    border: solid black;
+    background-color: bisque;
+    margin: 40px 100px; 
+    /* top/bottom left/right */ 
+}
+/*.Container{
+     display: flex;  
+     /* flex - properties of blocks to divide the whole page into smal =l box 
+    justify-content: center;
+} */
+
+.project h1{
+    text-align: center;
+}
+.project .card{
+    padding: 50px 50px;
+    margin: 40px 100px;
+}
+.contact h1{
+    text-align: center;   
+}
+
+.input{
+    margin:0px 550px; 
+    padding: 15px ;
+    margin-bottom: 5px ;
+    font-size: 25px;
+   
+}
+.contact button{
+    margin: 0px 550px;
+    padding: 10px;
+    font-size: 15px;
+
+}
